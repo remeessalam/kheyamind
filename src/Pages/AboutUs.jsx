@@ -21,7 +21,7 @@ const AboutUs = () => {
           </h3>
           <HrLine />
           <p>
-            At AI Company, we envision a future where businesses of all sizes
+            At KheyaMind AI , we envision a future where businesses of all sizes
             harness the transformative power of artificial intelligence to solve
             complex challenges and create exceptional value. Our goal is to
             become the world's most trusted partner for AI-powered digital

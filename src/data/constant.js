@@ -59,42 +59,42 @@ export const testimonials = [
     designation: "CEO, TechNova Solutions",
     image: require("../assets/images/testimonial/2.jpg"),
     review:
-      "The AI chatbot developed by AI Company transformed our customer support. Response times improved by 70% while maintaining 98% satisfaction rates. Their team understood our business needs perfectly and delivered a solution that integrated seamlessly with our existing systems. The ongoing optimization has been invaluable.",
+      "The AI chatbot developed by KheyaMind AI  transformed our customer support. Response times improved by 70% while maintaining 98% satisfaction rates. Their team understood our business needs perfectly and delivered a solution that integrated seamlessly with our existing systems. The ongoing optimization has been invaluable.",
   },
   {
     name: "Priya Sharma",
     designation: "Head of Digital, LexCorp",
     // image: require("../assets/images/testimonial/1.jpg"),
     review:
-      "Our custom GPT knowledge agent has revolutionized how our legal team accesses case files. AI Company's NLP expertise helped us create a secure, accurate system that saves hundreds of research hours monthly. Their attention to data security and domain-specific tuning was exceptional.",
+      "Our custom GPT knowledge agent has revolutionized how our legal team accesses case files. KheyaMind AI 's NLP expertise helped us create a secure, accurate system that saves hundreds of research hours monthly. Their attention to data security and domain-specific tuning was exceptional.",
   },
   {
     name: "Ravi Patel",
     designation: "Operations Director, RetailChain",
     // image: require("../assets/images/testimonial/3.jpg"),
     review:
-      "The AI-powered inventory module developed by AI Company reduced our stockouts by 45% and improved cash flow significantly. Their team built predictive models that adapt to our seasonal patterns and supplier lead times. The ROI was evident within the first quarter of implementation.",
+      "The AI-powered inventory module developed by KheyaMind AI  reduced our stockouts by 45% and improved cash flow significantly. Their team built predictive models that adapt to our seasonal patterns and supplier lead times. The ROI was evident within the first quarter of implementation.",
   },
   {
     name: "Ananya Desai",
     designation: "CTO, HealthTrack Systems",
     // image: require("../assets/images/testimonial/4.jpg"),
     review:
-      "AI Company's mobile app with integrated AI diagnostics has been a game-changer for our healthcare platform. They delivered exceptional UI/UX for complex medical data visualization while ensuring HIPAA compliance. The app's accuracy and usability have received outstanding feedback from both doctors and patients.",
+      "KheyaMind AI 's mobile app with integrated AI diagnostics has been a game-changer for our healthcare platform. They delivered exceptional UI/UX for complex medical data visualization while ensuring HIPAA compliance. The app's accuracy and usability have received outstanding feedback from both doctors and patients.",
   },
   {
     name: "Vikram Joshi",
     designation: "DevOps Lead, Finova Inc.",
     // image: require("../assets/images/testimonial/5.jpg"),
     review:
-      "Our AI-optimized cloud infrastructure handles 3x more transactions with lower costs thanks to AI Company's intelligent auto-scaling solutions. Their team implemented robust monitoring and security while training our staff on the new systems. The transition was seamless with no downtime.",
+      "Our AI-optimized cloud infrastructure handles 3x more transactions with lower costs thanks to KheyaMind AI 's intelligent auto-scaling solutions. Their team implemented robust monitoring and security while training our staff on the new systems. The transition was seamless with no downtime.",
   },
   {
     name: "Neha Gupta",
     designation: "Product Director, EduTech Global",
     // image: require("../assets/images/testimonial/6.jpg"),
     review:
-      "The AI interface design work by AI Company made our complex adaptive learning system intuitive for teachers and students alike. Their human-centered approach to AI explainability built trust in our platform. User engagement metrics have doubled since the redesign launched.",
+      "The AI interface design work by KheyaMind AI  made our complex adaptive learning system intuitive for teachers and students alike. Their human-centered approach to AI explainability built trust in our platform. User engagement metrics have doubled since the redesign launched.",
   },
 ];
 // web development services
