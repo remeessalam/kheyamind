@@ -13,7 +13,7 @@ const ContactForm = () => {
           <div className="space-y-4 text-start">
             <p className="uppercase text-primary">request a quote</p>
             <h3 className="section-heading">
-              Need A Free Quote? Please Feel Free to Contact Us
+              Let’s Bring AI to Work — Together
             </h3>
             <HrLine />
           </div>
@@ -68,7 +68,7 @@ const ContactForm = () => {
             <input
               type="text"
               className="w-full p-2 bg-primary-5 outline-none"
-              placeholder="Subject*"
+              placeholder="Phone"
             />
           </div>
           <div>

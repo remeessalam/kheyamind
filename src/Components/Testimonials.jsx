@@ -1,3 +1,4 @@
+import { FaCircleUser } from "react-icons/fa6";
 import { testimonials } from "../data/constant";
 import HrLine from "./HrLine";
 import { useKeenSlider } from "keen-slider/react";
@@ -64,11 +65,14 @@ const Testimonials = () => {
         {testimonials.map((item) => (
           <div key={item.name} className="keen-slider__slide bg-primary/10">
             <div className="flex items-center gap-2 px-5 pt-5 pb-3">
-              <img
+              {/* <img
                 src={item.image}
                 className="w-[3.5rem] min-w-[3.5rem] h-[3.5rem] rounded-full bg-primary"
                 alt="Testimonial"
-              />
+              /> */}
+              <div>
+                <FaCircleUser className="w-[3.5rem] min-w-[3.5rem] h-[3.5rem] rounded-full bg-primary" />
+              </div>
               <div className="space-y-1">
                 <p className="font-bold text-primary">{item.name}</p>
                 <p>{item.designation}</p>

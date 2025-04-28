@@ -233,7 +233,7 @@ const Home = () => {
           <div data-aos="fade-up" className="flex flex-col gap-7">
             {/* AI-First Thinking */}
             <div className="space-y-3">
-              <div className="bg-[#007BFF] w-[3.5rem] aspect-square flex justify-center items-center p-3 rounded-md">
+              <div className="bg-secondary w-[3.5rem] aspect-square flex justify-center items-center p-3 rounded-md">
                 <FaBrain size={30} className="text-[#FFD700]" />{" "}
                 {/* Blue background, Gold icon */}
               </div>
@@ -248,7 +248,7 @@ const Home = () => {
 
             {/* Clarity-Driven Design */}
             <div className="space-y-3">
-              <div className="bg-[#007BFF] w-[3.5rem] aspect-square flex justify-center items-center p-3 rounded-md">
+              <div className="bg-secondary w-[3.5rem] aspect-square flex justify-center items-center p-3 rounded-md">
                 <FaDraftingCompass size={30} className="text-[#FFD700]" />
               </div>
               <div className="space-y-1">
@@ -274,7 +274,7 @@ const Home = () => {
           <div data-aos="fade-up" className="flex flex-col gap-7">
             {/* Scalable Architecture */}
             <div className="space-y-3">
-              <div className="bg-[#007BFF] w-[3.5rem] aspect-square flex justify-center items-center p-3 rounded-md">
+              <div className="bg-secondary w-[3.5rem] aspect-square flex justify-center items-center p-3 rounded-md">
                 <FaCloudUploadAlt size={30} className="text-[#FFD700]" />
               </div>
               <div className="space-y-1">
@@ -285,7 +285,7 @@ const Home = () => {
 
             {/* Strategic Consulting */}
             <div className="space-y-3">
-              <div className="bg-[#007BFF] w-[3.5rem] aspect-square flex justify-center items-center p-3 rounded-md">
+              <div className="bg-secondary w-[3.5rem] aspect-square flex justify-center items-center p-3 rounded-md">
                 <FaLightbulb size={30} className="text-[#FFD700]" />
               </div>
               <div className="space-y-1">

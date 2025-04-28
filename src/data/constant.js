@@ -29,10 +29,25 @@ import {
   RiSmartphoneLine,
   RiBrushLine,
 } from "react-icons/ri";
+
+// porfolio image
+// Import all images at the top (Web Development)
+import FiveGHomesImg from "../assets/web-development-portfolio/5ghomes.png";
+import ColdCreekcapImg from "../assets/web-development-portfolio/cold creekcap.png";
+import ThinkRealityImg from "../assets/web-development-portfolio/think reality.png";
+import AkashMegaMart from "../assets/web-development-portfolio/Akash Mega Mart.png";
+import MidwamImmersive from "../assets/web-development-portfolio/Midwam – Immersive Experience Design Company.png";
+
+// Import all images at the top (App Development)
+import RentopBikeAndCarImgapp from "../assets/app-development-portfolio/Rentop – Bike & Car Rentals.jpg";
+import AkashMegaMartApp from "../assets/app-development-portfolio/Akash Mega Mart Mobile App.jpg";
+import FeelItMobileApp from "../assets/app-development-portfolio/FeelIt Mobile App.jpg";
+import KlikomicsMobileApp from "../assets/app-development-portfolio/Klikomics Mobile App.jpg";
+import AutoSnapMobileApp from "../assets/app-development-portfolio/AutoSnap Mobile App.jpg";
 export { logo };
 
 export const companyDetails = {
-  email: "xyz@example.com",
+  email: "hello@kheyamind.ai",
   phone: "+0000000000",
   phone2: "+0000000000",
   address: " Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
@@ -41,34 +56,47 @@ export const companyDetails = {
 export const testimonials = [
   {
     name: "Arjun Mehta",
-    designation: "CEO, Tech Innovators",
+    designation: "CEO, TechNova Solutions",
     image: require("../assets/images/testimonial/2.jpg"),
     review:
-      "The team at AI Company Pvt Ltd delivered a tailored web development solution that exceeded our expectations. Their attention to detail and innovative approach helped us create a highly engaging website. They were professional, met all deadlines, and provided exceptional post-launch support. We're thrilled with the results and how it positively impacted our online presence.",
+      "The AI chatbot developed by AI Company transformed our customer support. Response times improved by 70% while maintaining 98% satisfaction rates. Their team understood our business needs perfectly and delivered a solution that integrated seamlessly with our existing systems. The ongoing optimization has been invaluable.",
   },
   {
     name: "Priya Sharma",
-    designation: "Product Manager, Appify Co.",
-    image: require("../assets/images/testimonial/1.jpg"),
+    designation: "Head of Digital, LexCorp",
+    // image: require("../assets/images/testimonial/1.jpg"),
     review:
-      "Working with AI Company Pvt Ltd on our app development was a fantastic experience. They delivered a user-friendly app on time that exceeded our expectations. The team was highly responsive and flexible, and the final product was polished and ready for launch. We couldn’t be more pleased with the outcome.",
+      "Our custom GPT knowledge agent has revolutionized how our legal team accesses case files. AI Company's NLP expertise helped us create a secure, accurate system that saves hundreds of research hours monthly. Their attention to data security and domain-specific tuning was exceptional.",
   },
   {
     name: "Ravi Patel",
-    designation: "Founder, AI Ventures",
-    image: require("../assets/images/testimonial/3.jpg"),
+    designation: "Operations Director, RetailChain",
+    // image: require("../assets/images/testimonial/3.jpg"),
     review:
-      "AI Company Pvt Ltd’s AI development team delivered a cutting-edge solution that significantly improved our efficiency. Their expertise in AI and understanding of our business needs helped us automate key processes, providing valuable insights. The solution has been a major boost to our operations.",
+      "The AI-powered inventory module developed by AI Company reduced our stockouts by 45% and improved cash flow significantly. Their team built predictive models that adapt to our seasonal patterns and supplier lead times. The ROI was evident within the first quarter of implementation.",
   },
   {
-    name: "Arun Nair",
-    designation: "CTO, CodeWorks Inc.",
-    image: require("../assets/images/testimonial/4.jpg"),
+    name: "Ananya Desai",
+    designation: "CTO, HealthTrack Systems",
+    // image: require("../assets/images/testimonial/4.jpg"),
     review:
-      "The software development services from AI Company Pvt Ltd were top-notch. They understood our requirements perfectly and delivered a high-quality, scalable solution on time. Their team was professional, responsive, and ensured that the product met all our expectations. We’re very satisfied with the result.",
+      "AI Company's mobile app with integrated AI diagnostics has been a game-changer for our healthcare platform. They delivered exceptional UI/UX for complex medical data visualization while ensuring HIPAA compliance. The app's accuracy and usability have received outstanding feedback from both doctors and patients.",
+  },
+  {
+    name: "Vikram Joshi",
+    designation: "DevOps Lead, Finova Inc.",
+    // image: require("../assets/images/testimonial/5.jpg"),
+    review:
+      "Our AI-optimized cloud infrastructure handles 3x more transactions with lower costs thanks to AI Company's intelligent auto-scaling solutions. Their team implemented robust monitoring and security while training our staff on the new systems. The transition was seamless with no downtime.",
+  },
+  {
+    name: "Neha Gupta",
+    designation: "Product Director, EduTech Global",
+    // image: require("../assets/images/testimonial/6.jpg"),
+    review:
+      "The AI interface design work by AI Company made our complex adaptive learning system intuitive for teachers and students alike. Their human-centered approach to AI explainability built trust in our platform. User engagement metrics have doubled since the redesign launched.",
   },
 ];
-
 // web development services
 export const webDevelopmentServices = [
   {
@@ -132,80 +160,68 @@ export const portfolio = {
     list: [
       {
         id: 1,
-        title: "Barbera",
-        link: "https://play.google.com/store/apps/details?id=app.barbera.io&pcampaignid=web_share",
+        img: AkashMegaMartApp,
+        title: "Akash Mega Mart Mobile App",
+        link: "https://play.google.com/store/apps/details?id=com.app.akash_mega_mart",
       },
       {
         id: 2,
-        title: "Rentop",
-        link: "https://play.google.com/store/apps/details?id=com.rentop&pcampaignid=web_share",
+        img: FeelItMobileApp,
+        title: "FeelIt Mobile App",
+        link: "https://play.google.com/store/apps/details?id=com.app.akash_mega_mart",
       },
       {
         id: 3,
-        title: "Binfoclub",
-        link: "https://play.google.com/store/apps/details?id=com.binfoclub.app&pcampaignid=web_share",
+        img: KlikomicsMobileApp,
+        title: "Klikomics Mobile App",
+        link: "https://play.google.com/store/apps/details?id=com.klikomics.android&pcampaignid=web_share",
       },
       {
         id: 4,
-        title: "Prayer Times",
-        link: "https://play.google.com/store/apps/details?id=com.iccbrossard.prayerBmes&pcampaignid=web_share",
-      },
-      {
-        id: 5,
-        title: "Evans Francis",
-        link: "https://play.google.com/store/apps/details?id=com.chrisBanappdevelopers.evansfrancis&pcampaignid=web_share",
-      },
-      {
-        id: 6,
-        title: "HOD",
-        link: "https://play.google.com/store/apps/details?id=com.chrisBanappdevelopers.hod&pcampaignid=web_share",
-      },
-      {
-        id: 7,
-        title: "AutoSnap",
+        img: AutoSnapMobileApp,
+        title: "AutoSnap Mobile App",
         link: "https://play.google.com/store/apps/details?id=com.Zigna.AutoSnap&pcampaignid=web_share",
       },
       {
         id: 8,
-        title: "Klikomics",
-        link: "https://play.google.com/store/apps/details?id=com.klikomics.android&pcampaignid=web_share",
-      },
-      {
-        id: 9,
-        title: "Ocxee",
-        link: "https://apps.apple.com/in/app/ocxee/id1522856353",
-      },
-      {
-        id: 10,
-        title: "Dubai Travel Guide",
-        link: "https://play.google.com/store/apps/details?id=com.eBps.dubai.travel.guide&pcampaignid=web_share",
+        img: RentopBikeAndCarImgapp,
+        title: "Rentop Bike and Car",
+        link: "https://play.google.com/store/apps/details?id=com.rentop&pcampaignid=web_share",
       },
     ],
   },
   webDevelopment: {
     icon: <FaGlobe size={30} />,
     list: [
-      { id: 1, title: "Leaderbridge", link: "https://www.leaderbridge.com" },
-      { id: 2, title: "Autopilot", link: "https://autopilot.io" },
-      { id: 3, title: "Gigzio", link: "https://gigzio.com" },
-      { id: 4, title: "FE Group", link: "https://fe.group" },
-      { id: 5, title: "Vtalkz", link: "https://vtalkz.com" },
-      { id: 6, title: "Think Realty", link: "https://thinkrealty.ae" },
-      { id: 7, title: "Bayut", link: "https://www.bayut.com" },
       {
-        id: 8,
-        title: "5G High Speed Internet",
+        id: 1,
+        img: FiveGHomesImg,
+        title: "5g Homes",
         link: "https://5ghighspeedinternet.co",
       },
       {
-        id: 9,
-        title: "Messina's Catering",
-        link: "https://messinascatering.com",
+        id: 3,
+        img: ColdCreekcapImg,
+        title: "Cold Creekcap",
+        link: "https://www.coldcreekcap.com",
       },
       {
-        id: 10,
-        title: "Cold Creek Capital",
-        link: "https://www.coldcreekcap.com",
+        id: 9,
+        img: ThinkRealityImg,
+        title: "Think Reality",
+        link: "https://thinkrealty.ae",
+      },
+      {
+        id: 90,
+        img: AkashMegaMart,
+        title: "Akash Mega Mart",
+        link: "https://akashmegamart.com/",
+      },
+      {
+        id: 91,
+        img: MidwamImmersive,
+        title: "Midwam – Immersive Experience Design Company",
+        link: "https://www.midwam.com/en/about",
       },
     ],
   },
@@ -217,13 +233,18 @@ export const services = [
   {
     id: 1,
     title: "AI Chatbots & Voice Bots",
-    icon: <RiRobot2Line size={24} />,
+    icon: (
+      <RiRobot2Line
+        size={24}
+        className="w-[2.5rem] -rotate-45 group-hover:rotate-0 transition-all duration-200 fill-white"
+      />
+    ),
     desc: "Automate customer support, sales processes, and onboarding with intelligent conversational AI solutions that deliver 24/7 service.",
     detailsPage: {
-      banner: require("../assets/images/banners/ai-chatbots.webp"),
-      img1: require("../assets/images/service-details/chatbot-1.webp"),
-      img2: require("../assets/images/service-details/chatbot-2.webp"),
-      img3: require("../assets/images/service-details/chatbot-3.webp"),
+      banner: require("../assets/images/service-details/ai-chatbots.jpg"),
+      img1: require("../assets/images/service-details/chatbot-1.jpg"),
+      img2: require("../assets/images/service-details/chatbot-2.jpg"),
+      img3: require("../assets/images/service-details/chatbot-3.jpg"),
       firstSection: `
         <div class="space-y-6">
           <div class="space-y-4">
@@ -314,13 +335,18 @@ export const services = [
   {
     id: 2,
     title: "NLP & Custom GPT Solutions",
-    icon: <RiChatSmile2Line size={24} />,
+    icon: (
+      <RiChatSmile2Line
+        size={24}
+        className="w-[2.5rem] -rotate-45 group-hover:rotate-0 transition-all duration-200 fill-white"
+      />
+    ),
     desc: "Semantic search, prompt engineering tools, and knowledge agents that transform how you interact with data and customers.",
     detailsPage: {
-      banner: require("../assets/images/banners/nlp-solutions.webp"),
-      img1: require("../assets/images/service-details/nlp-1.webp"),
-      img2: require("../assets/images/service-details/nlp-2.webp"),
-      img3: require("../assets/images/service-details/nlp-3.webp"),
+      banner: require("../assets/images/service-details/nlp-solutions.jpg"),
+      img1: require("../assets/images/service-details/nlp-1.jpg"),
+      img2: require("../assets/images/service-details/nlp-2.jpg"),
+      img3: require("../assets/images/service-details/nlp-3.jpg"),
       firstSection: `
         <div class="space-y-6">
           <div class="space-y-4">
@@ -411,13 +437,18 @@ export const services = [
   {
     id: 3,
     title: "AI-Powered ERP Tools",
-    icon: <RiDashboardLine size={24} />,
+    icon: (
+      <RiDashboardLine
+        size={24}
+        className="w-[2.5rem] -rotate-45 group-hover:rotate-0 transition-all duration-200 fill-white"
+      />
+    ),
     desc: "Custom backend logic and automation for ecommerce, inventory, and business operations powered by intelligent algorithms.",
     detailsPage: {
-      banner: require("../assets/images/banners/ai-erp.webp"),
-      img1: require("../assets/images/service-details/erp-1.webp"),
-      img2: require("../assets/images/service-details/erp-2.webp"),
-      img3: require("../assets/images/service-details/erp-3.webp"),
+      banner: require("../assets/images/service-details/ai-erp.jpg"),
+      img1: require("../assets/images/service-details/erp-1.jpg"),
+      img2: require("../assets/images/service-details/erp-2.jpg"),
+      img3: require("../assets/images/service-details/erp-3.jpg"),
       firstSection: `
         <div class="space-y-6">
           <div class="space-y-4">
@@ -508,13 +539,18 @@ export const services = [
   {
     id: 4,
     title: "Cloud & DevOps Setup",
-    icon: <RiCloudLine size={24} />,
+    icon: (
+      <RiCloudLine
+        size={24}
+        className="w-[2.5rem] -rotate-45 group-hover:rotate-0 transition-all duration-200 fill-white"
+      />
+    ),
     desc: "Intelligent infrastructure solutions designed for smart scaling, automated deployments, and seamless operations.",
     detailsPage: {
-      banner: require("../assets/images/banners/cloud-devops.webp"),
-      img1: require("../assets/images/service-details/devops-1.webp"),
-      img2: require("../assets/images/service-details/devops-2.webp"),
-      img3: require("../assets/images/service-details/devops-3.webp"),
+      banner: require("../assets/images/service-details/cloud-devops.jpg"),
+      img1: require("../assets/images/service-details/devops-1.jpg"),
+      img2: require("../assets/images/service-details/devops-2.jpg"),
+      img3: require("../assets/images/service-details/devops-3.jpg"),
       firstSection: `
         <div class="space-y-6">
           <div class="space-y-4">
@@ -604,14 +640,19 @@ export const services = [
   },
   {
     id: 5,
-    title: "UI/UX for AI Interfaces",
-    icon: <RiBrushLine size={24} />,
+    title: "UI-UX for AI Interfaces",
+    icon: (
+      <RiBrushLine
+        size={24}
+        className="w-[2.5rem] -rotate-45 group-hover:rotate-0 transition-all duration-200 fill-white"
+      />
+    ),
     desc: "Specialized interface design for AI decision systems, dashboards, and complex data visualization.",
     detailsPage: {
-      banner: require("../assets/images/banners/ai-uiux.webp"),
-      img1: require("../assets/images/service-details/uiux-1.webp"),
-      img2: require("../assets/images/service-details/uiux-2.webp"),
-      img3: require("../assets/images/service-details/uiux-3.webp"),
+      banner: require("../assets/images/service-details/ai-uiux.jpg"),
+      img1: require("../assets/images/service-details/uiux-1.jpg"),
+      img2: require("../assets/images/service-details/uiux-2.jpg"),
+      img3: require("../assets/images/service-details/uiux-3.jpg"),
       firstSection: `
         <div class="space-y-6">
           <div class="space-y-4">
@@ -702,13 +743,18 @@ export const services = [
   {
     id: 6,
     title: "Mobile App Development",
-    icon: <RiSmartphoneLine size={24} />,
+    icon: (
+      <RiSmartphoneLine
+        size={24}
+        className="w-[2.5rem] -rotate-45 group-hover:rotate-0 transition-all duration-200 fill-white"
+      />
+    ),
     desc: "Custom mobile applications with integrated AI capabilities for real estate, HR, productivity, and specialized industries.",
     detailsPage: {
-      banner: require("../assets/images/banners/mobile-apps.webp"),
-      img1: require("../assets/images/service-details/mobile-1.webp"),
-      img2: require("../assets/images/service-details/mobile-2.webp"),
-      img3: require("../assets/images/service-details/mobile-3.webp"),
+      banner: require("../assets/images/banners/app-development.webp"),
+      img1: require("../assets/images/service-details/app-dev-1.webp"),
+      img2: require("../assets/images/service-details/app-dev-2.webp"),
+      img3: require("../assets/images/service-details/app-dev-3.webp"),
       firstSection: `
         <div class="space-y-6">
           <div class="space-y-4">

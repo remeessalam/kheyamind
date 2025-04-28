@@ -17,18 +17,22 @@ const AboutUs = () => {
         <div data-aos="fade-up" className="space-y-4">
           <p className="uppercase text-primary text-start">Our Vision</p>
           <h3 className="section-heading">
-            Transforming Ideas into Digital Success.
+            Pioneering Intelligent Solutions for the AI Era
           </h3>
           <HrLine />
           <p>
-            At AI Company Pvt. Ltd., our vision is to be the global leader in
-            providing innovative IT solutions that drive digital transformation
-            and business growth. We aim to empower businesses worldwide by
-            delivering cutting-edge technologies that unlock new opportunities,
-            enhance efficiency, and create sustainable success. By fostering a
-            culture of continuous innovation and excellence, we strive to be the
-            go-to partner for organizations seeking to stay ahead in a rapidly
-            evolving digital landscape.
+            At AI Company, we envision a future where businesses of all sizes
+            harness the transformative power of artificial intelligence to solve
+            complex challenges and create exceptional value. Our goal is to
+            become the world's most trusted partner for AI-powered digital
+            transformation, developing intelligent systems that learn, adapt,
+            and evolve with our clients' needs.
+          </p>
+          <p>
+            We're committed to pushing the boundaries of conversational AI,
+            predictive analytics, and intelligent automation to create solutions
+            that don't just respond to today's demands but anticipate tomorrow's
+            opportunities.
           </p>
           <div className="flex flex-col-reverse sm:flex-row items-center gap-5 sm:gap-10 pt-5">
             <Link to="/contact-us" className="primary-btn sm:w-fit w-full">
@@ -54,7 +58,7 @@ const AboutUs = () => {
           <img
             src={visionImg}
             className="w-full h-full object-cover object-bottom rounded-lg"
-            alt="Our Vision"
+            alt="AI Vision"
           />
         </div>
       </section>
@@ -63,16 +67,12 @@ const AboutUs = () => {
           <img
             src={missionImg}
             className="w-full h-full object-cover rounded-lg"
-            alt="Our Mission"
+            alt="AI Mission"
           />
         </div>
         <div data-aos="fade-up" className="space-y-4">
-          <p className="uppercase text-primary text-center">
-            Our Mission
-          </p>
-          <h3 className="section-heading">
-            Innovating Today for a Smarter Tomorrow.
-          </h3>
+          <p className="uppercase text-primary text-center">Our Mission</p>
+          <h3 className="section-heading">Building AI That Works for Humans</h3>
           <HrLine />
           <div
             data-aos="fade-up"
@@ -81,19 +81,22 @@ const AboutUs = () => {
             <img
               src={missionImg}
               className="w-full h-full object-cover rounded-lg"
-              alt="Our Mission"
+              alt="AI Mission"
             />
           </div>
           <p>
-            At AI Company, our mission is to drive digital excellence by
-            providing businesses with innovative, reliable, and tailored IT
-            solutions. We strive to bridge the gap between technology and
-            business success, empowering organizations to achieve their goals
-            through cutting-edge advancements in AI, web development, mobile
-            applications, and more. By fostering collaboration, embracing
-            innovation, and maintaining a client-first approach, we aim to
-            transform challenges into opportunities, enabling our clients to
-            thrive in a fast-paced, ever-evolving digital world.
+            Our mission is to democratize artificial intelligence by creating
+            practical, ethical solutions that deliver immediate business value.
+            We specialize in developing conversational interfaces, intelligent
+            automation systems, and predictive analytics tools that enhance
+            human capabilities rather than replace them.
+          </p>
+          <p>
+            Through continuous research and responsible innovation, we're
+            building AI systems that understand context, learn from
+            interactions, and make increasingly valuable contributions to our
+            clients' operations, customer experiences, and strategic
+            decision-making.
           </p>
           <div className="flex flex-col-reverse sm:flex-row items-center gap-5 sm:gap-10 pt-5">
             <Link to="/contact-us" className="primary-btn sm:w-fit w-full">

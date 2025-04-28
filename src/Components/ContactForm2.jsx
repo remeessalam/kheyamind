@@ -22,7 +22,7 @@ const ContactForm2 = () => {
       <div>
         <input
           type="text"
-          placeholder="Subject"
+          placeholder="Phone"
           className="p-2 outline-none bg-primary/10 rounded w-full"
         />
       </div>
