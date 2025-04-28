@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link as RouterLink } from "react-router-dom";
 import { companyDetails, logo } from "../../data/constant";
 import { Divide as Hamburger } from "hamburger-react";
 import Drawer from "react-modern-drawer";
@@ -8,7 +8,7 @@ import { IoClose, IoMail } from "react-icons/io5";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { ImPhone } from "react-icons/im";
-import { Link as Scroll } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
 
 export const websiteLinks = [
   { id: 1, name: "Home", path: "/" },
@@ -25,54 +25,54 @@ const LandingHeader = () => {
           <div className="flex flex-row items-center gap-7">
             <div className="flex items-center gap-2">
               <IoMail size={20} className="fill-white text-secondary" />
-              <Link to={`mailto:${companyDetails.email}`}>
+              <RouterLink to={`mailto:${companyDetails.email}`}>
                 {companyDetails.email}
-              </Link>
+              </RouterLink>
             </div>
             <div className="flex items-center gap-2">
               <ImPhone size={18} className="fill-white text-secondary" />
-              <Link to={`tel:${companyDetails.phone}`}>
+              <RouterLink to={`tel:${companyDetails.phone}`}>
                 {companyDetails.phone}
-              </Link>
+              </RouterLink>
             </div>
           </div>
           <div className="flex items-center gap-4">
-            <Link className="w-7 h-7 flex hover:bg-primary transition-all duration-200 justify-center items-center rounded-full border border-white">
+            <RouterLink className="w-7 h-7 flex hover:bg-primary transition-all duration-200 justify-center items-center rounded-full border border-white">
               <FaLinkedinIn className="fill-white" size={16} strokeWidth={1} />
-            </Link>
-            <Link className="w-7 h-7 flex hover:bg-primary transition-all duration-200 justify-center items-center rounded-full border border-white">
+            </RouterLink>
+            <RouterLink className="w-7 h-7 flex hover:bg-primary transition-all duration-200 justify-center items-center rounded-full border border-white">
               <FaInstagram
                 className="fill-white text-secondary"
                 size={16}
                 strokeWidth={1}
               />
-            </Link>
-            <Link className="w-7 h-7 flex hover:bg-primary transition-all duration-200 justify-center items-center rounded-full border border-white">
+            </RouterLink>
+            <RouterLink className="w-7 h-7 flex hover:bg-primary transition-all duration-200 justify-center items-center rounded-full border border-white">
               <FaFacebookF className="fill-white" size={16} strokeWidth={1} />
-            </Link>
-            <Link className="w-7 h-7 flex hover:bg-primary transition-all duration-200 justify-center items-center rounded-full border border-white">
+            </RouterLink>
+            <RouterLink className="w-7 h-7 flex hover:bg-primary transition-all duration-200 justify-center items-center rounded-full border border-white">
               <FaXTwitter className="fill-white" size={16} strokeWidth={1} />
-            </Link>
+            </RouterLink>
           </div>
         </div>
       </div>
       <div className="py-4 bg-white">
         <div className="wrapper flex items-center justify-between gap-10">
-          <Scroll smooth spy to="banner">
+          <ScrollLink smooth spy to="banner">
             <img
               src={logo}
               alt="logo"
-              className="w-[6rem] object-contain cursor-pointer"
+              className="w-[8rem] object-contain scale-110 cursor-pointer"
             />
-          </Scroll>
+          </ScrollLink>
           <div className="hidden md:flex items-center gap-7">
             {websiteLinks.map((link) =>
               link.path.includes("/") ? (
-                <Link key={link.id} to={link.path} className="link">
+                <RouterLink key={link.id} to={link.path} className="link">
                   {link.name}
-                </Link>
+                </RouterLink>
               ) : (
-                <Scroll
+                <ScrollLink
                   smooth
                   spy
                   offset={-90}
@@ -82,10 +82,10 @@ const LandingHeader = () => {
                   // activeClass="font-bold text-primary"
                 >
                   {link.name}
-                </Scroll>
+                </ScrollLink>
               )
             )}
-            <Scroll
+            <ScrollLink
               smooth
               spy
               offset={-100}
@@ -93,7 +93,7 @@ const LandingHeader = () => {
               className="primary-btn"
             >
               Contact Us
-            </Scroll>
+            </ScrollLink>
           </div>
           <div
             className="block md:hidden justify-self-end"
@@ -130,15 +130,15 @@ const LandingHeader = () => {
         <div className="py-4 px-7 flex flex-col gap-4 text-black">
           {websiteLinks.map((link) =>
             link.path.includes("/") ? (
-              <Link
+              <RouterLink
                 key={link.id}
                 to={link.path}
                 className="text-2xl font-medium"
               >
                 {link.name}
-              </Link>
+              </RouterLink>
             ) : (
-              <Scroll
+              <ScrollLink
                 smooth
                 spy
                 offset={-20}
@@ -148,10 +148,10 @@ const LandingHeader = () => {
                 className="text-2xl font-medium"
               >
                 {link.name}
-              </Scroll>
+              </ScrollLink>
             )
           )}
-          <Scroll
+          <ScrollLink
             smooth
             spy
             offset={-20}
@@ -160,7 +160,7 @@ const LandingHeader = () => {
             className="text-2xl font-medium"
           >
             Contact Us
-          </Scroll>
+          </ScrollLink>
         </div>
       </Drawer>
     </div>

@@ -233,12 +233,8 @@ export const services = [
   {
     id: 1,
     title: "AI Chatbots & Voice Bots",
-    icon: (
-      <RiRobot2Line
-        size={24}
-        className="w-[2.5rem] -rotate-45 group-hover:rotate-0 transition-all duration-200 fill-white"
-      />
-    ),
+    icon: RiRobot2Line,
+
     desc: "Automate customer support, sales processes, and onboarding with intelligent conversational AI solutions that deliver 24/7 service.",
     detailsPage: {
       banner: require("../assets/images/service-details/ai-chatbots.jpg"),
@@ -335,12 +331,8 @@ export const services = [
   {
     id: 2,
     title: "NLP & Custom GPT Solutions",
-    icon: (
-      <RiChatSmile2Line
-        size={24}
-        className="w-[2.5rem] -rotate-45 group-hover:rotate-0 transition-all duration-200 fill-white"
-      />
-    ),
+    icon: RiChatSmile2Line,
+
     desc: "Semantic search, prompt engineering tools, and knowledge agents that transform how you interact with data and customers.",
     detailsPage: {
       banner: require("../assets/images/service-details/nlp-solutions.jpg"),
@@ -437,12 +429,7 @@ export const services = [
   {
     id: 3,
     title: "AI-Powered ERP Tools",
-    icon: (
-      <RiDashboardLine
-        size={24}
-        className="w-[2.5rem] -rotate-45 group-hover:rotate-0 transition-all duration-200 fill-white"
-      />
-    ),
+    icon: RiDashboardLine,
     desc: "Custom backend logic and automation for ecommerce, inventory, and business operations powered by intelligent algorithms.",
     detailsPage: {
       banner: require("../assets/images/service-details/ai-erp.jpg"),
@@ -539,12 +526,7 @@ export const services = [
   {
     id: 4,
     title: "Cloud & DevOps Setup",
-    icon: (
-      <RiCloudLine
-        size={24}
-        className="w-[2.5rem] -rotate-45 group-hover:rotate-0 transition-all duration-200 fill-white"
-      />
-    ),
+    icon: RiCloudLine,
     desc: "Intelligent infrastructure solutions designed for smart scaling, automated deployments, and seamless operations.",
     detailsPage: {
       banner: require("../assets/images/service-details/cloud-devops.jpg"),
@@ -641,12 +623,7 @@ export const services = [
   {
     id: 5,
     title: "UI-UX for AI Interfaces",
-    icon: (
-      <RiBrushLine
-        size={24}
-        className="w-[2.5rem] -rotate-45 group-hover:rotate-0 transition-all duration-200 fill-white"
-      />
-    ),
+    icon: RiBrushLine,
     desc: "Specialized interface design for AI decision systems, dashboards, and complex data visualization.",
     detailsPage: {
       banner: require("../assets/images/service-details/ai-uiux.jpg"),
@@ -743,12 +720,7 @@ export const services = [
   {
     id: 6,
     title: "Mobile App Development",
-    icon: (
-      <RiSmartphoneLine
-        size={24}
-        className="w-[2.5rem] -rotate-45 group-hover:rotate-0 transition-all duration-200 fill-white"
-      />
-    ),
+    icon: RiSmartphoneLine,
     desc: "Custom mobile applications with integrated AI capabilities for real estate, HR, productivity, and specialized industries.",
     detailsPage: {
       banner: require("../assets/images/banners/app-development.webp"),

@@ -24,8 +24,11 @@ const Services = ({ title, heading, data }) => {
             key={item.id}
             className="relative overflow-hidden group bg-primary/10 px-5 py-10 flex flex-col items-center gap-2 rounded-lg hover:bg-primary/30 transition-all duration-200"
           >
-            <div className="relative rotate-45 group-hover:rotate-0 transition-all duration-200 w-[4rem] h-[4rem] flex justify-center items-center bg-primary">
-              {item.icon}
+            <div className="relative p-2 rotate-0 group-hover:rotate-45 transition-all duration-200 w-[4rem] h-[4rem] flex justify-center items-center bg-primary">
+              <item.icon
+                size={24}
+                className="w-[2.5rem] -rotate-0 group-hover:-rotate-45 transition-all duration-200 fill-white"
+              />
             </div>
             <p className="mt-3 text-lg font-bold">{item.title}</p>
             <p>{item.desc}</p>

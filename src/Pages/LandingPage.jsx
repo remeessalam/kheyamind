@@ -1,7 +1,7 @@
 import React from "react";
 import ReactPlayer from "react-player";
 import bannerVid from "../assets/vid/banner.mp4";
-import { Link } from "react-router-dom";
+import { Link as RouterLink } from "react-router-dom";
 import CountUp from "react-countup";
 import HrLine from "../Components/HrLine";
 import {
@@ -26,7 +26,7 @@ import ContactForm2 from "../Components/ContactForm2";
 import { TiArrowBack } from "react-icons/ti";
 import { ImPhone } from "react-icons/im";
 import Portfolio from "../Components/LandingPage/Portfolio";
-import { Link as Scroll } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
 
 const LandingPage = ({ page }) => {
   const isWeb = page === "web";
@@ -45,10 +45,10 @@ const LandingPage = ({ page }) => {
                 : "Seamless Apps That Empower Your Business"}
             </h1>
             <div className="flex sm:flex-row flex-col justify-center gap-5 mt-5">
-              <Link to="/about-us" className="primary-btn">
+              <RouterLink to="/about-us" className="primary-btn">
                 Learn More
-              </Link>
-              <Scroll
+              </RouterLink>
+              <ScrollLink
                 smooth
                 spy
                 offset={-80}
@@ -56,7 +56,7 @@ const LandingPage = ({ page }) => {
                 className="transparent-btn"
               >
                 Contact Us
-              </Scroll>
+              </ScrollLink>
             </div>
           </div>
         </div>
@@ -237,12 +237,12 @@ const LandingPage = ({ page }) => {
                 </div>
                 <div className="flex flex-col">
                   <p className="">Call Us Now</p>
-                  <Link
+                  <RouterLink
                     to={`tel:${companyDetails.phone}`}
                     className="font-semibold"
                   >
                     {companyDetails.phone}
-                  </Link>
+                  </RouterLink>
                 </div>
               </div>
             </div>
